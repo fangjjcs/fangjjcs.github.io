@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-family: "Open sans", sans-serif;
+}
+
+header.jumbotron {
+  background-image: url("https://farm5.staticflickr.com/4899/45728801535_c8f93b0bf6_k.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-width: 500px;
+  color: #fff;
+  border-radius: 0px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.container {
+  padding: 0px;
+  text-align: center;
+}
+.container h6 {
+  font-weight: 600;
+}
+
+.container.title {
+  text-align: left;
+}
+
+section {
+  text-align: center;
+  padding: 30px 0px;
+}
+section .section-heading {
+  font-size: 30px;
+}
+section .section-subheading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.col-md-8 {
+  padding: 60px 10px;
+}
+.col-md-8 img {
+  width: 100%;
+}
+.col-md-8 .section-subheading {
+  font-weight: 800;
+  text-align: left;
+}
+.col-md-8 .section-context {
+  font-size: 16px;
+  text-align: left;
+  margin-top: -8px;
+}
+.col-md-8 h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.col-md-4 {
+  padding: 75px 10px;
+}
+.col-md-4 img {
+  width: 70%;
+}
+.col-md-4 .section-context {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 20px;
+}
+.col-md-4 h4 {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+section.story {
+  background-color: #eee;
+}
+section.story .col-md-12 img {
+  width: 100px;
+}
+section.story .col-md-6 {
+  padding: 80px 30px 0px;
+}
+section.story p.content {
+  text-align: left;
+  padding: 5px;
+}
+
+section.pictures {
+  padding: 0px 0px;
+}
+section.pictures .col-md-6 {
+  padding: 80px;
+  color: #fff;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+section.pictures .col-md-6:hover {
+  filter: grayscale(1);
+}
+section.pictures .pic1 {
+  background-image: url(https://farm8.staticflickr.com/7877/45961023464_ad580e3148_k.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+section.pictures .pic2 {
+  background-image: url(https://farm5.staticflickr.com/4907/45919118244_cb53d8ed48_k.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+section.pictures .col-md-12 {
+  padding: 0px;
+}
+section.pictures .col-md-12 .pic3 {
+  background-image: url(https://farm8.staticflickr.com/7908/46591327052_ae91182cde_k.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+section.ask {
+  background-color: #666;
+}
+section.ask .col-md-12 {
+  color: #fff;
+}
+section.ask .section-subheading {
+  font-weight: 600;
+}
+section.ask .icon {
+  display: inline-block;
+  margin-top: 20px;
+}
+section.ask i {
+  text-align: center;
+  width: 40px;
+}
